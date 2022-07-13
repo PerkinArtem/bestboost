@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     initSubMenu();
     initFixedHeader();
     initModals();
-    initSmoothScroll();
+    // initSmoothScroll();
 });
 document.addEventListener('scroll', initFixedHeader);
 
@@ -71,3 +71,4 @@ function initFixedHeader() {
         header.classList.remove('header--fixed');
     }
 }
+
